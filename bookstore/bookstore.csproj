@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D2EC598-3EB4-445A-A5B0-93A18460D2FC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>bookstore</RootNamespace>
+    <AssemblyName>bookstore</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="KnjigaVnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KnjigaVnos.Designer.cs">
+      <DependentUpon>KnjigaVnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KnjigaPosodobi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KnjigaPosodobi.Designer.cs">
+      <DependentUpon>KnjigaPosodobi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AvtorPosodobi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AvtorPosodobi.Designer.cs">
+      <DependentUpon>AvtorPosodobi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AvtorVnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AvtorVnos.Designer.cs">
+      <DependentUpon>AvtorVnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baza.cs" />
+    <Compile Include="bookstoreUserData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bookstoreUserData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Registracija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registracija.Designer.cs">
+      <DependentUpon>Registracija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Informacije.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informacije.Designer.cs">
+      <DependentUpon>Informacije.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainUporabnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainUporabnik.Designer.cs">
+      <DependentUpon>MainUporabnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pravilnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pravilnik.Designer.cs">
+      <DependentUpon>Pravilnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UporabnikPosodobi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UporabnikPosodobi.Designer.cs">
+      <DependentUpon>UporabnikPosodobi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UporabnikVnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UporabnikVnos.Designer.cs">
+      <DependentUpon>UporabnikVnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZalozbaPosodobi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZalozbaPosodobi.Designer.cs">
+      <DependentUpon>ZalozbaPosodobi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZalozbaVnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZalozbaVnos.Designer.cs">
+      <DependentUpon>ZalozbaVnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZbirkaVnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZbirkaVnos.Designer.cs">
+      <DependentUpon>ZbirkaVnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZbirkaPodrobnosti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZbirkaPodrobnosti.Designer.cs">
+      <DependentUpon>ZbirkaPodrobnosti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZbirkaPosodobi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZbirkaPosodobi.Designer.cs">
+      <DependentUpon>ZbirkaPosodobi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="KnjigaVnos.resx">
+      <DependentUpon>KnjigaVnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KnjigaPosodobi.resx">
+      <DependentUpon>KnjigaPosodobi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AvtorPosodobi.resx">
+      <DependentUpon>AvtorPosodobi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AvtorVnos.resx">
+      <DependentUpon>AvtorVnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registracija.resx">
+      <DependentUpon>Registracija.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informacije.resx">
+      <DependentUpon>Informacije.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainUporabnik.resx">
+      <DependentUpon>MainUporabnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pravilnik.resx">
+      <DependentUpon>Pravilnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UporabnikPosodobi.resx">
+      <DependentUpon>UporabnikPosodobi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UporabnikVnos.resx">
+      <DependentUpon>UporabnikVnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZalozbaPosodobi.resx">
+      <DependentUpon>ZalozbaPosodobi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZalozbaVnos.resx">
+      <DependentUpon>ZalozbaVnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZbirkaVnos.resx">
+      <DependentUpon>ZbirkaVnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZbirkaPodrobnosti.resx">
+      <DependentUpon>ZbirkaPodrobnosti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZbirkaPosodobi.resx">
+      <DependentUpon>ZbirkaPosodobi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bookstoreUserData.xsc">
+      <DependentUpon>bookstoreUserData.xsd</DependentUpon>
+    </None>
+    <None Include="bookstoreUserData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bookstoreUserData.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bookstoreUserData.xss">
+      <DependentUpon>bookstoreUserData.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookworm %281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

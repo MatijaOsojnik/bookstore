@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="bookstoreUserData" targetNamespace="http://tempuri.org/bookstoreUserData.xsd" xmlns:mstns="http://tempuri.org/bookstoreUserData.xsd" xmlns="http://tempuri.org/bookstoreUserData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="bookstoreConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="bookstoreConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.bookstore.Properties.Settings.GlobalReference.Default.bookstoreConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="drzaveTableAdapter" GeneratorDataComponentClassName="drzaveTableAdapter" Name="drzave" UserDataComponentName="drzaveTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bookstoreConnectionString (Settings)" DbObjectName="bookstore.drzave" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `ime` FROM `drzave`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="krajiTableAdapter" GeneratorDataComponentClassName="krajiTableAdapter" Name="kraji" UserDataComponentName="krajiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bookstoreConnectionString (Settings)" DbObjectName="bookstore.kraji" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `ime` FROM `kraji`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="uporabnikiTableAdapter" GeneratorDataComponentClassName="uporabnikiTableAdapter" Name="uporabniki" UserDataComponentName="uporabnikiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bookstoreConnectionString (Settings)" DbObjectName="bookstore.uporabniki" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `ime`, `priimek`, `email`, `vrsta_racuna`, `datum_reg` FROM `uporabniki`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources>
+              <DbSource ConnectionRef="bookstoreConnectionString (Settings)" DbObjectName="bookstore.uporabniki" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `ime`, `priimek`, `email`, `vrsta_racuna`, `datum_reg` FROM `uporabniki`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="bookstoreUserData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="bookstoreUserData" msprop:Generator_UserDSName="bookstoreUserData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="drzave" msprop:Generator_TableClassName="drzaveDataTable" msprop:Generator_TableVarName="tabledrzave" msprop:Generator_RowChangedName="drzaveRowChanged" msprop:Generator_TablePropName="drzave" msprop:Generator_RowDeletingName="drzaveRowDeleting" msprop:Generator_RowChangingName="drzaveRowChanging" msprop:Generator_RowEvHandlerName="drzaveRowChangeEventHandler" msprop:Generator_RowDeletedName="drzaveRowDeleted" msprop:Generator_RowClassName="drzaveRow" msprop:Generator_UserTableName="drzave" msprop:Generator_RowEvArgName="drzaveRowChangeEvent">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="kraji" msprop:Generator_TableClassName="krajiDataTable" msprop:Generator_TableVarName="tablekraji" msprop:Generator_RowChangedName="krajiRowChanged" msprop:Generator_TablePropName="kraji" msprop:Generator_RowDeletingName="krajiRowDeleting" msprop:Generator_RowChangingName="krajiRowChanging" msprop:Generator_RowEvHandlerName="krajiRowChangeEventHandler" msprop:Generator_RowDeletedName="krajiRowDeleted" msprop:Generator_RowClassName="krajiRow" msprop:Generator_UserTableName="kraji" msprop:Generator_RowEvArgName="krajiRowChangeEvent">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="uporabniki" msprop:Generator_TableClassName="uporabnikiDataTable" msprop:Generator_TableVarName="tableuporabniki" msprop:Generator_RowChangedName="uporabnikiRowChanged" msprop:Generator_TablePropName="uporabniki" msprop:Generator_RowDeletingName="uporabnikiRowDeleting" msprop:Generator_RowChangingName="uporabnikiRowChanging" msprop:Generator_RowEvHandlerName="uporabnikiRowChangeEventHandler" msprop:Generator_RowDeletedName="uporabnikiRowDeleted" msprop:Generator_RowClassName="uporabnikiRow" msprop:Generator_UserTableName="uporabniki" msprop:Generator_RowEvArgName="uporabnikiRowChangeEvent">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

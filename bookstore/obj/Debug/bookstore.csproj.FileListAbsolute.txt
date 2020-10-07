@@ -1,0 +1,94 @@
+W:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\bookstore.exe.config
+W:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\bookstore.exe
+W:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\bookstore.pdb
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.csprojAssemblyReference.cache
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.Registracija.resources
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.Login.resources
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.Properties.Resources.resources
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.csproj.GenerateResource.cache
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.csproj.CoreCompileInputs.cache
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.exe
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.pdb
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.csprojAssemblyReference.cache
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.Registracija.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.Login.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.Main.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.Properties.Resources.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.csproj.GenerateResource.cache
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.exe
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.pdb
+F:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\bookstore.exe.config
+F:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\bookstore.exe
+F:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\bookstore.pdb
+F:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\MySql.Data.dll
+F:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\Google.Protobuf.dll
+F:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\BouncyCastle.Crypto.dll
+F:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\Ubiety.Dns.Core.dll
+F:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\Renci.SshNet.dll
+F:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\MySql.Data.xml
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.csproj.CopyComplete
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.MainUporabnik.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.Informacije.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.AvtorVnos.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.ZalozbaVnos.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.AvtorPosodobi.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.ZalozbaPosodobi.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.UporabnikPosodobi.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.UporabnikVnos.resources
+W:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\MySql.Data.dll
+W:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\Google.Protobuf.dll
+W:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\BouncyCastle.Crypto.dll
+W:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\Ubiety.Dns.Core.dll
+W:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\Renci.SshNet.dll
+W:\c# hrastnik\bookStore\bookstore\bookstore\bin\Debug\MySql.Data.xml
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.adminInsert.resources
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.adminUpdate.resources
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.AvtorPosodobi.resources
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.AvtorVnos.resources
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.Informacije.resources
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.Main.resources
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.MainUporabnik.resources
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.UporabnikPosodobi.resources
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.UporabnikVnos.resources
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.ZalozbaPosodobi.resources
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.ZalozbaVnos.resources
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.csproj.CopyComplete
+W:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.Pravilnik.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.Pravilnik.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.KnjigaVnos.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.KnjigaPosodobi.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.ZbirkaPosodobi.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.ZbirkaPodrobnosti.resources
+F:\c# hrastnik\bookStore\bookstore\bookstore\obj\Debug\bookstore.ZbirkaVnos.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\bin\Debug\bookstore.exe.config
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\bin\Debug\bookstore.exe
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\bin\Debug\bookstore.pdb
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\bin\Debug\MySql.Data.dll
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\bin\Debug\Google.Protobuf.dll
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\bin\Debug\Renci.SshNet.dll
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\bin\Debug\MySql.Data.xml
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.csprojAssemblyReference.cache
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.KnjigaVnos.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.KnjigaPosodobi.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.AvtorPosodobi.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.AvtorVnos.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.Registracija.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.Informacije.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.Login.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.Main.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.MainUporabnik.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.Pravilnik.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.Properties.Resources.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.UporabnikPosodobi.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.UporabnikVnos.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.ZalozbaPosodobi.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.ZalozbaVnos.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.ZbirkaVnos.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.ZbirkaPodrobnosti.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.ZbirkaPosodobi.resources
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.csproj.GenerateResource.cache
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.csproj.CopyComplete
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.exe
+C:\Users\matij\OneDrive\Attachments\bookStore\bookstore\bookstore\obj\Debug\bookstore.pdb
